@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"-->
-    {% block head %}{% endblock %}
+    <link rel="stylesheet" href="categoryPage.css">
+    
 </head>
 <body>
-    {% block body %}{% endblock %}
+    <div class="categorySection">
+        Hello
+    </div>
+    
+    <div class="prodContainer" id="abc">
+        
+        
+    </div>
 </body>
+    <script type="text/javascript">
+        window.onload=function(){
+            var product_block=document.getElementById("abc")
+            console.log("hi")
+            for(var i=0; i<5; i++){
+                product_block.innerHTML+=`
+                <div class="card">
+                    Hi
+                </div> `
+            }
+        }
+        
+    </script>
 </html>

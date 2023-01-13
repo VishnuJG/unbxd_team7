@@ -1,0 +1,20 @@
+body{
+    margin-top:20px;
+}
+.prodContainer{
+    margin-top:250px;
+    margin-left: 150px;
+}
+.card{
+    margin: 16px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.05), 6px 5px 5px rgba(0,0,0,.1);
+    border-radius: 4px;
+    padding: 16px;
+    width: 250px;
+    height: 300px;
+    margin-right:80px;
+    float : left;
+}
+.categorySection{
+    margin-top:10px;
+}
