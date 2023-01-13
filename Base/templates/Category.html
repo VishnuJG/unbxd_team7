@@ -1,8 +1,16 @@
 {% extends 'Base.html' %}
 {% block head %}
     <title>Category Page or Search Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/catpage.css') }}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 {% endblock %}
 {% block body %}
-    <h1>This is the Category Page</h1>
+<div class="prodcontainer">
+    {%for i in range(0, 5)%}
+    <div class="card">
+        {{i}}
+    </div> 
+    {% endfor %}
+</div>
     
 {% endblock %}
